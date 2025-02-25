@@ -1,4 +1,14 @@
+div {
+    font-size: 20px;
+}
+
 h1 {
-    font-size: 40px;
+    font-size: 2em;
     color: red;
 }
+
+/* Unidades de medida:
+px: valor absoluto
+rem: valor relativo ao elemento raiz
+em: valor relativo ao elemento pai
+%: valor relativo a tela */
