@@ -1,3 +1,17 @@
+.pai {
+    width: 50%;
+    height: 500px;
+    background-color: red;
+}
+
+.filho {
+    width: 50%;
+    height: 50%;
+    background-color: green;
+}
+
+
+/* exemplo antigo
 div {
     font-size: 20px;
 }
@@ -5,10 +19,10 @@ div {
 h1 {
     font-size: 2em;
     color: red;
-}
+} */
 
 /* Unidades de medida:
 px: valor absoluto
 rem: valor relativo ao elemento raiz
 em: valor relativo ao elemento pai
-%: valor relativo a tela */
+%: valor relativo ao elemento pai */
