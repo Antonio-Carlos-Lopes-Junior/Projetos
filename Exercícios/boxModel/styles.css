@@ -1,0 +1,22 @@
+/* margin é o distanciamento de um elemento com relação aos elementos que estão fora dele.
+padding é o distanciamento de um elemento com relação aos elementos que estão fora dele.
+border-radius serve para arredondar a borda, se quiser um círculo colocar 50% */
+
+* {
+    margin: 0;
+}
+
+.minhadiv {
+    width: 1000px;
+    height: 1000px;
+    background-color: red;
+    padding: 10px 20px 10px 10px;
+}
+
+.filhodiv {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 2px solid white;
+    border-radius: 50%;
+}
