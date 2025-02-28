@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 200vh; /* 100vh vai colocar o corpo da página com 100% na vertical */
+    /* position: static; pode colocar ou não, é padrão do criação da página */
+}
+
+.minhadiv {
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    color: white;
+    position: fixed; /* é para fixar o elemento na posição determinada abaixo */
+    top: 0px;
+    text-align-last: center;
+    align-content: center;
+}
+
+.minhadiv2 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative; /* a posição do elemento não vai depender da tela e sim da sua posição inicial */
+    top: 50px;
+}
+
+.minhadiv3{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    position: absolute; /* a posoção em que o elemento fica depende do elemento pai (static ou relative) */
+    top: 40px;
+}
+
+.minhadiv4 {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    background-color: blue;
+    position: sticky; /* gruda quando chega na posição configurada abaixo */
+    top: 50px;
+}
