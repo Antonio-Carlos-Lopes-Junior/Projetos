@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 200vh;
+    width: 200vw;
+}
+
+/* site para código das cores */
+
+.minhadiv {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    transition: 5s;
+}
+
+.minhadiv:hover {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.input {
+    border: 1px solid black;
+}
+
+.input:disabled {
+    border-color: red;
+}
+
+/* site para as setas https://jf.eti.br/setas-em-ascii/ */
+
+.tag::before {
+    content: ' → qualquer coisa';
+}
+
+.tag::after {
+    content: '←';
+}
