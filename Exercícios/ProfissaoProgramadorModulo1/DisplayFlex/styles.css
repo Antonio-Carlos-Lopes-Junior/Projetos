@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+}
+
+.pai1 {
+    width: 1000px;
+    height: 400px;
+    background-color: black;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row; /* essa é a direção padrão */
+}
+
+.filho1 {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid red;
+}
+
+.pai2 {
+    width: 1000px;
+    height: 400px;
+    background-color: black;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row-reverse; /* essa é a direção invertida começando da direita para a esquerda */
+}
+
+.filho2 {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid red;
+}
+
+.pai3 {
+    width: 1000px;
+    height: 400px;
+    background-color: black;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column; /* coloca no formato coluna */
+}
+
+.filho3 {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid red;
+}
+
+.pai4 {
+    width: 1000px;
+    height: 400px;
+    background-color: black;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column-reverse; /* coloca no formato coluna invertida comeando de baixo para cima*/
+}
+
+.filho4 {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid red;
+}
+
+.pai5 {
+    width: 1000px;
+    height: 400px;
+    background-color: black;
+    border: 2px solid white;
+    display: flex;
+    justify-content: start; /* essa é a direção padrão */
+}
+
+.filho5 {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid red;
+}
+
+.pai6 {
+    width: 1000px;
+    height: 400px;
+    background-color: black;
+    border: 2px solid white;
+    display: flex;
+    justify-content: end; /* coloca no final sem inverter a ordem */
+}
+
+.filho6 {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid red;
+}
+
+.pai7 {
+    width: 1000px;
+    height: 400px;
+    background-color: black;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center; /* coloca no centro horizontalmente */
+}
+
+.filho7 {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid red;
+}
+
+.pai8 {
+    width: 1000px;
+    height: 400px;
+    background-color: black;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-between; /* coloca no espacço entre os blocos */
+}
+
+.filho8 {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid red;
+}
+
+.pai9 {
+    width: 1000px;
+    height: 400px;
+    background-color: black;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-around; /* coloca espaço antes, depois e entre os blocos mas não igual */
+}
+
+.filho9 {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid red;
+}
+
+.pai10 {
+    width: 1000px;
+    height: 400px;
+    background-color: black;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-evenly; /* coloca espaço igual antes, depois e entre os blocos */
+}
+
+.filho10 {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid red;
+}
+
+.pai11 {
+    width: 1000px;
+    height: 400px;
+    background-color: black;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-evenly; /* coloca espaço igual antes, depois e entre os blocos */
+    align-items: flex-start; /* essa é a direção padrão */
+}
+
+.filho11 {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid red;
+}
+
+.pai12 {
+    width: 1000px;
+    height: 400px;
+    background-color: black;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-evenly; /* coloca espaço igual antes, depois e entre os blocos */
+    align-items: flex-end; /* coloca na parte de baixo do bloco pai */
+}
+
+.filho12 {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid red;
+}
+
+.pai13 {
+    width: 1000px;
+    height: 400px;
+    background-color: black;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-evenly; /* coloca espaço igual antes, depois e entre os blocos */
+    align-items: center; /* coloca no centro verticalmente */
+}
+
+.filho13 {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid red;
+}
