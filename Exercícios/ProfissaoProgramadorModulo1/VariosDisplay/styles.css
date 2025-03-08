@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+}
+
+.minhadiv1 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    display: inline; /* inline coloca os blocos em linha e não usa formatação de tamanho */
+}
+
+.minhadiv2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block; /* inline-block coloca os blocos em linha podendo formatar o tamanho */
+}
+
+.minhadiv3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: block; /* block coloca os blocos em coluna podendo formatar o tamanho */
+}
+
+.minhadiv4 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: none; /* none oculta o bloco */
+}
