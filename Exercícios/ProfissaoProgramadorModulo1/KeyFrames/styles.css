@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+}
+
+.minhadiv1 {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    animation: animacao1;
+    animation-duration: 5s;
+    position: absolute;
+    left: 40%;
+}
+
+@keyframes animacao1 {
+    from {
+        border-radius: 0%;
+        background-color: black;
+    }
+    to {
+        border-radius: 50%;
+        background-color: red;
+    }
+}
+
+.minhadiv2 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    animation: animacao2;
+    animation-duration: 5s;
+    position: absolute;
+}
+
+@keyframes animacao2 {
+    0% {
+        top: 0px;
+    }
+    10% {
+        top: 20px;
+    }
+    20% {
+        top: 40px;
+    }
+    40% {
+        top: 40px;
+        left: 20px;
+    }
+    50% {
+        top: 60px;
+        left: 40px;
+    }
+    100% {
+        top: 140px;
+        left: 120px;
+    }
+}
