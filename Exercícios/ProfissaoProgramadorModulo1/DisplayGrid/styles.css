@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+.pai1 {
+    width: 1000px;
+    height: 400px;
+    background-color: black;
+    border: 2px solid white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* define quantas colunas quer */
+    grid-template-rows: repeat(2, 1fr); /* colocar se quiser mais espaço abaixo, colocar após o grid-template-columns */
+    column-gap: 10px; /* espaçamento entre as colunas */
+    row-gap: 10px; /* espaçamento entre as linhas */
+}
+
+.filho1 {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 2px solid red;
+}
