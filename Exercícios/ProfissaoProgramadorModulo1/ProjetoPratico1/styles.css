@@ -181,6 +181,134 @@ span {
     align-items: center;
 }
 
+.contact-container {
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.contact-content {
+    width: 70%;
+    padding: 20px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+
+input {
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+textarea {
+    width: 80%;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.contact-banner {
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 40%;
+    height: 600px;
+    margin-right: 100px;
+    background-image: url('https://static.wikia.nocookie.net/universo-batman/images/a/ac/P%C3%B4ster_de_%27Batman%27.jpg/revision/latest?cb=20220307110904&path-prefix=pt-br');
+}
+
+.photos-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.photos-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.photo {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo:hover {
+    transform: scale(1.02);
+}
+
+.banner-4 {
+    background-image: url('https://wallpapers.com/images/featured/o-batman-2022-hgl2bnkm99pghca9.jpg');
+}
+
+.banner-5 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/pt/thumb/3/38/The_Batman_poster.jpg/250px-The_Batman_poster.jpg');
+}
+
+.banner-6 {
+    background-image: url('https://sm.ign.com/ign_br/screenshot/default/charada-batman-filme_71j7.jpg');
+}
+
+.banner-7 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvXuGCnr5PCFtQLPbaAm3C-I52dNok4R82wg&s');
+}
+
+.banner-8 {
+    background-image: url('https://www.tribunapr.com.br/wp-content/uploads/sites/56/2022/02/28121731/rev-1-TBM-11721r_High_Res_JPEG-970x550.jpeg');
+}
+
+.banner-9 {
+    background-image: url('https://curitibacult.com.br/wp-content/uploads/2021/12/the-batman.jpg');
+}
+
+.comments-container {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.comments-content {
+    width: 60%;
+    padding: 20px;
+}
+
+.comment-box {
+    display: flex;
+    flex-direction: column;
+}
+
 @media (max-width: 768px) {
     .footer-navigation {
         display: block;
@@ -230,5 +358,9 @@ span {
     .cards-content {
         grid-template-columns: 1fr;
         margin-top: 150px;
+    }
+
+    .contact-banner {
+        display: none;
     }
 }
