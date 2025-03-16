@@ -363,4 +363,8 @@ textarea {
     .contact-banner {
         display: none;
     }
+
+    .photos-content {
+        grid-template-columns: 1fr;
+    }
 }
