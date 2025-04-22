@@ -49,7 +49,7 @@ fetch(endpoint, {mode: 'cors'}).then((data) => {
         console.log(json)
     })
 })
-//teste
+
 // usando o method: 'POST'
 // o código ficará commentdo para não dar erro, pois o endpoint é só para obter informação
 // fetch(endpoint, 
