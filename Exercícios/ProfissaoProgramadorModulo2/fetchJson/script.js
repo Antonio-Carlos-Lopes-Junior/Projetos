@@ -45,11 +45,11 @@
 const endpoint = 'https://api.coingecko.com/api/v3/exchange_rates'
 
 fetch(endpoint, {mode: 'cors'}).then((data) => {
-    console.log(data.json().then((json) => {
+    data.json().then((json) => {
         console.log(json)
-    }))
+    })
 })
-
+//teste
 // usando o method: 'POST'
 // o código ficará commentdo para não dar erro, pois o endpoint é só para obter informação
 // fetch(endpoint, 
